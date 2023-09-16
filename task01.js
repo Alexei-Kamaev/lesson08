@@ -5,9 +5,8 @@
     function randomNumber(a) {
         for (let i = 0; i < a; i++) {
         arrRandom[i] = Math.ceil(Math.random() * 100);
-        console.log(arrRandom[i]);
         }
     return arrRandom;
     }
-    //console.log(randomNumber(countLength));
+    console.log(randomNumber(countLength));
 }
